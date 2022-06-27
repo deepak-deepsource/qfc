@@ -4,6 +4,7 @@ import termios
 import fcntl
 import os
 from . import keys
+import collections
 
 
 def get_symbol():
